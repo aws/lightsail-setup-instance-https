@@ -16,8 +16,8 @@ configobj == 5.0.8 \
   --hash=sha256:a7a8c6ab7daade85c3f329931a807c8aee750a2494363934f8ea84d8a54c87ea
 pytz == 2023.3 \
   --hash=sha256:a151b3abb88eda1d4e34a9814df37de2a80e301e68ba0fd856fb9b46bfbbbffb
-cryptography == 41.0.4 \
-  --hash=sha256:2ed09183922d66c4ec5fdaa59b4d14e105c084dd0febd27452de8f6f74704143
+cryptography == 41.0.6 \
+  --hash=sha256:b648fe2a45e426aaee684ddca2632f62ec4613ef362f4d681a9a6283d10e079d
 acme == 2.7.1 \
   --hash=sha256:669167c5d855a9d60dbe9b98681ddb376ba1c2a17a35be3291489b8b0eaef4ff
 requests == 2.31.0 \
