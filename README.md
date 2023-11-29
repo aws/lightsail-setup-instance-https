@@ -1,11 +1,6 @@
-## My Project
+## Lightsail Website Setup
 
-TODO: Fill this README out!
-
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
+This repository contains the various scripts that are run as part of setting up your website on Lightsail.
 
 ## Security
 
@@ -14,4 +9,6 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 ## License
 
 This project is licensed under the Apache-2.0 License.
+
+Certbot License: https://github.com/certbot/certbot/blob/master/LICENSE.txt
 
