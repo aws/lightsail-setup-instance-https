@@ -1,5 +1,5 @@
 # This file defines the logic needed to handle renewing the Let's Encrypt (LE) SSL certificate.
-# This file is executed by the following crontab entry: 0 0,12 * * * root /usr/bin/python3 /home/bitnami/lightsail/scripts/le-cert-renewal.py
+# This file is executed by the following crontab entry: 0 0,12 * * * root /usr/bin/python3 /opt/bitnami/lightsail/scripts/le-cert-renewal.py
 # It checks the existing valid LE certificate expiration date. If eligible for renewal, it will call certbot to renew the certificate.
 # This file should not be removed to ensure the renewal process succeeds.
 # If the LE certificate is no longer needed and therefore does not need to be removed, this file can be removed.
