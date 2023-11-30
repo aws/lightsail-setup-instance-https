@@ -10,5 +10,3 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 
 This project is licensed under the Apache-2.0 License.
 
-Certbot License: https://github.com/certbot/certbot/blob/master/LICENSE.txt
-

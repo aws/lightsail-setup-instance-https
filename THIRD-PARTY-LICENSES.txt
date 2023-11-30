@@ -1,0 +1,5 @@
+** Certbot; version 2.7.1 -- https://certbot.eff.org/
+ 
+https://github.com/certbot/certbot/blob/master/LICENSE.txt
+* For Certbot see also this required NOTICE:
+    https://github.com/certbot/certbot/blob/master/LICENSE.txt
