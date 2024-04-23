@@ -141,7 +141,7 @@ def main():
 
     cert_name = argv[1]
     log_init()
-    returncode, stdout, stderr = run_cmd(f'certbot certificates | grep "Certificate Name: {cert_name}" -A{LINES_AFTER} | grep "Domains: "')
+    returncode, stdout, stderr = run_cmd(f'/opt/certbot/bin/certbot certificates | grep "Certificate Name: {cert_name}" -A{LINES_AFTER} | grep "Domains: "')
     if returncode != 0:
         return 1
 

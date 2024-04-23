@@ -53,7 +53,7 @@ def log_cert_info(cert_name):
     log_path = f"{WORKING_FOLDER}/{CERT_LOG_FOLDER}/{cert_name}_{datetime_str}.log"
     if os.path.exists(f"{WORKING_FOLDER}/{CERT_LOG_FOLDER}") == False:
         os.mkdir(f"{WORKING_FOLDER}/{CERT_LOG_FOLDER}")
-    run_cmd(f"certbot certificates > {log_path}")
+    run_cmd(f"/opt/certbot/bin/certbot certificates > {log_path}")
 
 def run_cmd(cmd):
     log_info(f"Execute command: {cmd}")
@@ -106,7 +106,7 @@ def main():
         return 1
 
     log_info(f"Renewing cert: {cert_name}")
-    renew_cmd = "certbot renew"
+    renew_cmd = "/opt/certbot/bin/certbot renew"
     if IF_FORCE_RENEW:
         renew_cmd += " --force-renewal"
     returncode, stdout, stderr = run_cmd(renew_cmd)
