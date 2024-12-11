@@ -46,8 +46,9 @@ cryptography == 44.0.0 \
   --hash=sha256:f677e1268c4e23420c3acade68fac427fffcb8d19d7df95ed7ad17cdef8404f4
 acme == 2.7.1 \
   --hash=sha256:669167c5d855a9d60dbe9b98681ddb376ba1c2a17a35be3291489b8b0eaef4ff
-requests == 2.31.0 \
-  --hash=sha256:58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f
+requests == 2.32.2 \
+  --hash=sha256:dd951ff5ecf3e3b3aa26b40703ba77495dab41da839ae72ef3c8e5d8e2433289 \
+  --hash=sha256:fc06670dd0ed212426dfeb94fc1b983d917c4f9847c863f313c9dfaaffb7c23c
 distro == 1.8.0 \
   --hash=sha256:99522ca3e365cac527b44bde033f64c6945d90eb9f769703caaec52b09bbd3ff
 parsedatetime == 2.4 \
